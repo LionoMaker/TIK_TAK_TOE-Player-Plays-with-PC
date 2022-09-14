@@ -1,8 +1,8 @@
 
 #include <Arduino.h>
-char Array[3][3]; // 3x3 Matri Array, empty of the length of 3*3=9
-const char Player = '%';
-const char PC = '*';
+char Array[3][3]; // 3x3 Matri Array
+const char Player = 'X';
+const char PC = 'O';
 
 int userInput()
 { // user input from Serial monitor
